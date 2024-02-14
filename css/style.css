@@ -6,8 +6,15 @@
     background-image: url("../images/bg.jpg");
     background-repeat: repeat-y;
     background-size: cover;
-    min-height: 100vh;
 }
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
 
 .wrapper {
     width: 1388px;
@@ -61,18 +68,18 @@
 
 .short-info p {
     margin-bottom: -10px;
+    font-size: 20px;
 }
 
-.Classification {
-    background-image: linear-gradient(to left, blue, aqua, blue);
-    padding-top: 30px;
+.Container {
+    background-image: linear-gradient(to left, darkblue, aqua, darkblue);
     padding-bottom: 30px;
     margin-top: 60px;
-    border: 10px inset aqua;
+    border: 10px outset aqua;
     border-radius: 20px;
 }
 
-.Classification h2 {
+.Container h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     margin-right: 200px;
@@ -81,21 +88,150 @@
     padding-bottom: 5px;
     padding-left: 5px;
 
-    background-color: blue;
+    background-color: darkblue;
     color: lightblue;
     text-shadow: 3px 3px 0px yellow;
-    border: 10px solid transparent; /* Начальная прозрачная обводка */
-    border-image: linear-gradient(to right, yellow, transparent); /* Градиентная обводка */
-    border-image-slice: 1; /* Установка градиента по всему краю */
+    border: 10px solid transparent; 
+    border-image: linear-gradient(to right, yellow, transparent); 
+    border-image-slice: 1; 
 }
 
 
-.Classification ul {
+.Container ul {
     list-style-image: url('../images/shipswheel.png');
     background-color: azure;
+    font-family: "Lobster", sans-serif;
+    color: darkblue;
+    font-size: 24px;
     margin-left: 40px;
     margin-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: -8px 8px 4px aqua, 0px 8px 4px aqua, 8px 12px 6px blue, 16px 16px 0px yellow;
-  }
+}
+
+.Container p {
+    font-family: "Lobster", sans-serif;
+    color: rgb(197, 235, 248);
+    font-size: 24px;
+    background-color: darkblue;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+
+}
+
+.sy1 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 4px inset aqua;
+    border-radius: 10px 10px 10px 10px/40px 10px 10px 10px;
+}
+
+.sy2 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 4px solid yellow;
+    border-radius: 0% 50% 50% 50%;
+}
+
+.butterflyC {
+    border: 6px outset yellow;
+    border-radius: 50%;
+    padding: 100px;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.Bimg {
+    display: inline-block;
+}
+
+.Bimg img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.Bimg1 {
+    border-radius: 0 100% ;
+}
+
+.Bimg2 {
+    border-radius: 100% 0 100%;
+}
+
+.Bimg3 {
+    border-radius: 100% 0 100%;
+}
+
+.Bimg4 {
+    border-radius: 0 100%;
+}
+
+.footerIMG {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footerIMG img {
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Fimg {
+    transform: rotate(15deg);
+    transform-origin: center;
+    border: 4px solid white;
+    box-shadow: 6px 6px 6px aqua;
+}
+
+.mirror {
+    transform: rotate(15deg) scale(-1) translate(63px);
+    margin-top: 20px;
+    mask-image: linear-gradient(to bottom, white, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, white, transparent);
+    -moz-mask-image: linear-gradient(to bottom, white, transparent);
+    -o-mask-image: linear-gradient(to bottom, white, transparent);
+    border: 4px solid #fff; 
+
+
+}
+
+.nged {
+    text-align: center;
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: inset 0px -5px 10px 0px rgba(0, 0, 0, 0.6), inset 0px 5px 10px 0px #fff;
+}
+
+.nged p{
+    display: inline;
+    background-color: darkblue;
+    color: azure;
+    font-size: 26px;
+    padding: 6px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px 3px yellow;
+    margin-left: 40px;
+    margin-right: 30px;
+
+
+}
+
