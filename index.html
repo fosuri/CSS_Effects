@@ -10,24 +10,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
+
 </head>
 <body>
-<div class="background">
+<div id="top"  class="background">
 
 <div class="wrapper">
 
-    <div class="nav">
-        <div class="up">
-            <p>&uarr;</p>
-        </div>
-    </div>
-
-
     <div class="header">
         <h1 class="rotated-text">ЯХТЫ</h1>
-        <img class="Himg" src="./images/yacht.jpg" alt="img">
-        <img class="Himg" src="./images/yacht1.jpg" alt="img">
-        <img class="Himg" src="./images/yacht2.jpg" alt="img">
+        <a href="#sail-y">
+            <img class="Himg" src="./images/yacht.jpg" alt="img">
+        </a>
+        <a href="#motor-y">
+            <img class="Himg" src="./images/yacht1.jpg" alt="img">
+        </a>
+        <a href="#motor-y">
+            <img class="Himg" src="./images/yacht2.jpg" alt="img">
+        </a>
         <h2 class="Hh2">С нами вокруг света</h2>
     </div>
 
@@ -59,7 +59,7 @@
     </div>
 
     <div class="Container">
-        <h2>Парусные яхты</h2>
+        <h2 id="sail-y">Парусные яхты</h2>
 
         <p>
             За первенство в создании парусных яхт борются греки, египтяне и финикийцы. Историки заявляют о появлении первых парусных судов более 10 тыс. лет назад в водах Эгейского моря. 
@@ -101,7 +101,7 @@
     </div>
 
     <div class="Container">
-        <h2>Моторные яхты</h2>
+        <h2 id="motor-y">Моторные яхты</h2>
 
         <p>
             Моторные яхты обладают достаточно мощным дизельным двигателем (обычно их два, иногда три). Такие яхты хороши для быстрых передвижений, они могут развивать скорость до 40 узлов (около 74 км/ч), обладают высокой мобильностью, не зависящей от направления и скорости ветра. В большинстве моделей (среднего и верхнего классов) присутствует стабилизатор качки. Внутренние помещения более просторны и комфортны по сравнению с парусной яхтой такого же размера.
@@ -151,13 +151,32 @@
         <img src="./images/y1.jpg" alt="y1" class="mirror">
     </div>
 
-    <div class="nged">
+    <div id="bottom" class="nged">
         <p>Карпов Никита</p>
         <p>JPTV22</p>
         <p>Nikita.Karpov.001@ivkhk.ee</p>
         <p>14.02.2024</p>
     </div>
+
+    <div class="nav-box">
+        <div class="nav">
+            <a href="#top" >
+                <div class="navB">
+                    <p>&#11014;</p>
+                </div>
+            </a>
+            <a href="#bottom" >
+                <div class="navB">
+                    <p>&#11015;</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
 </footer>
+
+
 
 </div>
 </div>
