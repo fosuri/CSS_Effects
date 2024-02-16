@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 
 </head>
@@ -19,15 +20,24 @@
 
     <div class="header">
         <h1 class="rotated-text">ЯХТЫ</h1>
-        <a href="#sail-y">
-            <img class="Himg" src="./images/yacht.jpg" alt="img">
-        </a>
-        <a href="#motor-y">
-            <img class="Himg" src="./images/yacht1.jpg" alt="img">
-        </a>
-        <a href="#motor-y">
-            <img class="Himg" src="./images/yacht2.jpg" alt="img">
-        </a>
+        <abbr title="Парусные яхты">
+            <a href="#sail-y">
+                <img class="Himg" src="./images/yacht.jpg" alt="img">
+            </a>
+        </abbr>
+
+        <abbr title="Моторные яхты">
+            <a href="#motor-y">
+                <img class="Himg" src="./images/yacht1.jpg" alt="img">
+            </a>
+        </abbr>
+
+        <abbr title="Картинки">
+            <a href="#pictures">
+                <img class="Himg" src="./images/yacht2.jpg" alt="img">
+            </a>
+        </abbr>
+
         <h2 class="Hh2">С нами вокруг света</h2>
     </div>
 
@@ -139,17 +149,54 @@
 </main>
 
 <footer>
-    <div class="footerIMG">
-        <img src="./images/y4.jpg" alt="y4" class="Fimg">
-        <img src="./images/y3.jpg" alt="y3" class="Fimg">
-        <img src="./images/y2.jpg" alt="y2" class="Fimg">
-        <img src="./images/y1.jpg" alt="y1" class="Fimg">
+    <div class="footerIMG" id="pictures">
+        <div>
+            <img src="./images/y4.jpg" alt="y4" >
+        </div>
+        <div>
+            <img src="./images/y3.jpg" alt="y3" >
+        </div>
+        <div>
+            <img src="./images/y2.jpg" alt="y2" >
+        </div>
+        <div>
+            <img src="./images/y1.jpg" alt="y1" >
+        </div>
 
-        <img src="./images/y4.jpg" alt="y4" class="mirror">
-        <img src="./images/y3.jpg" alt="y3" class="mirror">
-        <img src="./images/y2.jpg" alt="y2" class="mirror">
-        <img src="./images/y1.jpg" alt="y1" class="mirror">
     </div>
+
+    <details>
+        <summary>Ссылки</summary>
+        <ul>
+            <li>
+                <a target="_blank" href="https://www.wikiwand.com/en/Sailing_yacht">https://www.wikiwand.com/en/Sailing_yacht</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.elan-yachts.com/en">https://www.elan-yachts.com/en</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.boatinternational.com/yachts/the-superyacht-directory/gweilo--59785">https://www.boatinternational.com/yachts/the-superyacht-directory/gweilo--59785</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://yachtsinvest.com/brand/dreamline/">https://yachtsinvest.com/brand/dreamline/</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.galatiyachts.com/yachting-news/how-much-does-a-small-yacht-cost/">https://www.galatiyachts.com/yachting-news/how-much-does-a-small-yacht-cost/</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://itboat.com/models/9491-carver-c43-coupe">https://itboat.com/models/9491-carver-c43-coupe</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.investing.com/news/world-news/superyacht-linked-to-sanctioned-russian-on-sale-for-295-million-euros-2903341">https://www.investing.com/news/world-news/superyacht-linked-to-sanctioned-russian-on-sale-for-295-million-euros-2903341</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Yacht">https://en.wikipedia.org/wiki/Yacht</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://mediatakeouto.com/8721g-g-mega-gloss-1-part-marine-topside-polyurethane-enamel-protect-your-boat-with-the-best/">https://mediatakeouto.com/8721g-g-mega-gloss-1-part-marine-topside-polyurethane-enamel-protect-your-boat-with-the-best/</a>
+            </li>
+        </ul>
+    </details>
 
     <div id="bottom" class="nged">
         <p>Карпов Никита</p>
@@ -157,6 +204,7 @@
         <p>Nikita.Karpov.001@ivkhk.ee</p>
         <p>14.02.2024</p>
     </div>
+
 
     <div class="nav-box">
         <div class="nav">
@@ -172,7 +220,6 @@
             </a>
         </div>
     </div>
-
 
 </footer>
 
